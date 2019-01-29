@@ -1,13 +1,14 @@
-{
-    "projects":  [
-          {
-            "imageUrl": "",
-            "title": "something",
-            "category": "ui"
-        },
-        {
-            "imageUrl": "",
-            "title": "something",
-            "category": "ui"
+{  
+   "projects":[  
+      {  
+         "imageUrl":"",
+         "title":"",
+         "category":"ui"
+      },
+      {  
+         "imageUrl":"",
+         "title":"",
+         "category":"ui"
+      }
+   ]
 }
-    ]
