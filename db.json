@@ -1,0 +1,13 @@
+{
+    "projects":  [
+          {
+            "imageUrl": "",
+            "title": "something",
+            "category": "ui"
+        },
+        {
+            "imageUrl": "",
+            "title": "something",
+            "category": "ui"
+}
+    ]
