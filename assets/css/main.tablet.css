@@ -1,0 +1,44 @@
+@media (max-width: 1620px) {
+    
+    .work {
+        width: calc(100% - 100px);
+        padding: 50px 50px;
+    }
+    
+    .work .preview {
+        position: relative;
+        overflow: hidden;
+        width: calc(100vw - 125px);
+        height: calc((100vw - 125px) / 16 * 9)
+    }
+
+    
+    .products {
+        width: calc(100% - 100px);
+        padding: 50px 50px;
+    }
+
+    .products .box {
+        width: calc(100% - 50px);
+    }
+    
+    
+    .quotes {
+        width: calc(100% - 100px);
+        padding: 50px 50px;
+    }
+    
+    .quotes .box {
+        margin: 0;
+        margin-top: 50px;
+        width: calc(100%);
+    }
+    
+    .quotes .bar {
+        margin: 0;
+        margin-bottom: 5px;
+        margin-top: 5px;
+        width: calc(100%);
+        background-color: #383B92;
+    }
+}

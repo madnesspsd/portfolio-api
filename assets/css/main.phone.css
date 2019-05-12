@@ -1,0 +1,126 @@
+@media (max-width: 1120px) {
+    .header .box {
+        width: calc(100% - 75px);
+        text-align: center;
+        height: 200px;
+    }
+
+    .products {
+        width: calc(100% - 100px);
+        padding: 50px 50px;
+    }
+
+    .products .box {
+        width: calc(100% - 50px);
+    }
+    
+    .work .preview .slider .images {
+        display: none;
+    }
+    
+    .work .images.bottom {
+        display: block
+    }
+    
+}
+
+@media (max-width: 820px) {
+
+    .header {
+        width: calc(100% - 50px);
+        padding: 25;
+        overflow: hidden;
+        box-shadow: 0px 0px 5px 0px rgb(0,0,0,.1);
+    }
+
+    .header .title {
+        top: 15px;
+        left: 15px;
+    }
+
+    .header .jukebox {
+        position: absolute;
+        top: 10px;
+        right: 15px;
+    }
+
+    .header .box .inner#mini-products {
+        transform: scale(0.5) translateY(-120px);
+    }
+
+    .header .box {
+        width: calc(100% - 75px);
+        text-align: center;
+        height: 200px;
+    }
+
+    .products {
+        width: calc(100% - 100px);
+        padding: 50px 50px;
+    }
+
+    .products .box {
+        width: calc(100% - 50px);
+    }
+    
+    .work .preview {
+        width: calc(100vw - 95px);
+        height: calc((100vw - 95px) / 16 * 9)
+    }
+
+    
+    .work .images img {
+        margin-right: 0px;
+        max-width: calc(100vw - 95px);
+        max-height: calc((100vw - 95px) / 16 * 9)
+    }
+    
+
+    .work .preview .slider {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: calc(100% - 20px);
+        width: calc(100% - 20px);
+        padding: 10px;
+        background-color: transparent;
+    }
+
+    .work .preview .slider .name {
+        background-color: #4C50BD;
+        padding: 10px 20px;
+        font-size: 0.5em;
+    }
+
+    .work .preview .slider .visit {
+        background-color: #4C50BD;
+        font-size: 0.5em;
+    }
+    .work .preview .slider .visit:hover {
+        background-color: rgb(85, 89, 212);
+    }
+    .work .preview .slider .slide-btn {
+        display: none;
+    }
+
+    
+
+    .work .preview .slider .images {
+        display: none;
+    }
+
+    
+    
+.work .images img {
+    opacity: 1;
+}
+
+
+
+    
+    .quotes .box .client {
+        left: calc(100%);
+        transform: translate(calc(-100% - 15px), -30px);
+    }
+    
+}
