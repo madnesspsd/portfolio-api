@@ -1,0 +1,26 @@
+[
+    {
+        "rating": 5,
+        "brand": "Hirakazu",
+        "logo": "/assets/images/clients/Hirakazu.jpg",
+        "message": "He finished all of my orders really fast and he is really good at what he does!"
+    },
+    {
+        "rating": 5,
+        "brand": "Skinwaste",
+        "logo": "/assets/images/clients/skinwaste.png",
+        "message": "Really clean and unique stuff!"
+    },
+    {
+        "rating": 4,
+        "brand": "Tensey",
+        "logo": "/assets/images/clients/Tensey.jpg",
+        "message": "Been working with Madness for a while now, and he makes great UI's, delivers on time and has a great attitude."
+    },
+    {
+        "rating": 4,
+        "brand": "BeastBets",
+        "logo": "/assets/images/clients/Beast.jpg",
+        "message": "Cheap, fast, reliable"
+    }
+]

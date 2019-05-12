@@ -1,0 +1,102 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        
+        <title>madnesspsd</title>
+        <link rel="icon" type="image/png" href="https://i.imgur.com/oHkGVKY.png">
+        
+        <link rel="stylesheet" href="/assets/css/main.css">
+        <link rel="stylesheet" href="/assets/css/main.tablet.css">
+        <link rel="stylesheet" href="/assets/css/main.phone.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+        
+    </head>
+    <body>
+        <div class="header" id="top">
+            <div class="title">madnesspsd</div>
+            <a class="jukebox" onclick="toggleJuke()" id="juke"><img src="/assets/images/jukebox.png" /> Jukebox</a  >
+            <div class="box">
+                <div class="inner" id="info">
+                    <h1>Welcome to my portfolio!</h1>
+                    <small class="desc">I've designed for more than two years and have worked with numerous big websites.<br/>My goal is to provide my clients with the best possible quality to step up their website to the next level.</small>
+                </div>
+            </div>
+            <div class="box">
+                <div class="inner" id="mini-products">
+
+                    <img src="https://i.imgur.com/mW73kxz.jpg"/>
+                    <img src="https://i.imgur.com/17C5WLU.jpg"/>
+                    <img src="https://i.imgur.com/3XOSflR.png"/>
+
+                </div>
+            </div>
+            <div class="social">
+                <div class="drop-item"><i style="padding: 5px 0px;"class="icon fab fa-discord"></i> <b class="drop-msg copyToClip">madness#4110</b></div>
+                <a target="_blank" href="https://twitter.com/madnesspsd"><i class="icon fab fa-twitter"></i></a><br/>
+                <a target="_blank" href="https://trade.opskins.com/t/2435333/2IwThhCz"><img src="/assets/images/opskins.png" class="icon inverted" /></a>
+            </div>
+            <a href="#work" class="next-arrow"><i class="fas fa-chevron-down"></i></a>
+        </div>
+
+
+        <div class="products" id="products">
+            <div class="box">
+                <h3 class="title"><img src="/assets/images/ui.png"/> UI Designs</h3>
+                <small class="desc">I turn your imagination into reality.<br/>Order some cheap and quality UI Designs now!</small>
+            </div>
+            <div class="box">
+                <h3 class="title"><img src="/assets/images/thumb.png"/> Thumbnails</h3>
+                <small class="desc">Need a thumbnail for your Stream/Video fast and cheap? You are at the right place.</small>
+            </div>
+            <div class="box">
+                <h3 class="title"><img src="/assets/images/arts.png"/> Arts</h3>
+                <small class="desc">I can also make different kind of arts, ads and banners for your project or your profile.</small>
+            </div>
+        </div>
+
+        <div class="work" id="work">
+            <div class="title">Some of the designs I've worked on.</div>
+            <div class="preview">
+                <img class="thumb" src=""/>
+                <div class="slider">
+                    <div class="name">loading...</div>
+
+                    <div class="images"></div>
+
+                    <div class="">
+                        <a onclick="moveProject(-1);" class="visit left"><i class="fas fa-chevron-left"></i> <span class="title"></span></a>
+                        <a onclick="moveProject(+1);" class="visit right"><span class="title"></span> <i class="fas fa-chevron-right"></i></a>
+                    </div>
+                    
+                    <div class="line-top"></div>
+                    <div class="line-left"></div>
+                    <div class="slide-btn" onclick="makeFullscreen()"><i class="fas fa-long-arrow-alt-left"></i></div>
+                </div>
+            </div>
+            <div class="images bottom"></div>
+        </div>
+
+        <div class="quotes" id="quotes">
+            <div class="box">
+                <small class="rating">
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                </small>
+                <div class="client">
+                    <img class="logo" src=""/>
+                    <br/>
+                    <div class="brand">loading...</div>
+                </div>
+                <p class="quote">it is still loading the quotes...</p>
+            </div>
+            <div class="bar"><div class="inner" style="width: 100%;"></div></div>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="/assets/js/app.js"></script>
+    </body>
+</html>
