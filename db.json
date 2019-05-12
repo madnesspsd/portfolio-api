@@ -1,7 +1,0 @@
-{
-  "projects": [
-    { "imageUrl": "test.png", "title": "Jackpot Site 1", "category": "ui" },
-    { "imageUrl": "test2.png", "title": "Quicksell Giveaway 1", "category": "giveaway" },
-    { "imageUrl": "test3.png", "title": "Quicksell frontend", "category": "premade" }
-  ]
-}
